@@ -1,1 +1,20 @@
-node_modules/.DS_Store
+# Dependencies
+node_modules/
+.npm
+*.tgz
+
+# macOS system files
+.DS_Store
+._*
+
+# Logs & runtime
+logs
+*.log
+npm-debug.log*
+
+# Environment & Editor
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
