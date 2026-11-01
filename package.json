@@ -17,8 +17,8 @@
   "author": "Kritarth Patel",
   "type": "module",
   "bin": {
-    "letgo": "./index.js",
-    "chill": "./index.js"
+    "letgo": "index.js",
+    "chill": "index.js"
   },
   "main": "index.js",
   "scripts": {
