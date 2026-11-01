@@ -2,7 +2,7 @@
 
 A lightweight Node.js CLI tool that clears your terminal, displays a centered nature scene, and reminds you to take a quick breather when debugging gets frustrating.
 
-Works out of the box in the VS Code integrated terminal, iTerm2, macOS Terminal, and standard ANSI terminals.
+Works in the VS Code integrated terminal, iTerm2, macOS Terminal, and standard ANSI terminals.
 
 ---
 
@@ -19,6 +19,17 @@ Or run it instantly without installing using `npx`:
 ```bash
 npx let-go-frustration
 ```
+
+---
+
+## ⚙️ Important Setup for VS Code Users
+
+By default, VS Code disables inline images in the integrated terminal. For the images to display properly, enable the setting once:
+
+1. Open VS Code Settings (**Cmd + ,** on macOS or **Ctrl + ,** on Windows/Linux).
+2. Search for **`terminal.integrated.enableImages`**.
+3. Check the box for **Terminal › Integrated: Enable Images** (or add `"terminal.integrated.enableImages": true` to your `settings.json`).
+4. Kill your current terminal session (click the **Trash Can icon**) and open a fresh terminal.
 
 ---
 
