@@ -1,0 +1,31 @@
+{
+  "name": "let-go-frustration",
+  "version": "1.0.0",
+  "description": "A calming CLI tool that renders high-resolution nature scenes directly in your terminal to help you destress and let go of coding frustration.",
+  "keywords": [
+    "npm"
+  ],
+  "homepage": "https://github.com/KritarthPatel/let-go-frustration#readme",
+  "bugs": {
+    "url": "https://github.com/KritarthPatel/let-go-frustration/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KritarthPatel/let-go-frustration.git"
+  },
+  "license": "MIT",
+  "author": "Kritarth Patel",
+  "type": "module",
+  "bin": {
+    "letgo": "./index.js",
+    "chill": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mri": "^1.2.0",
+    "terminal-image": "^5.0.1"
+  }
+}
